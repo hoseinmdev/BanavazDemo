@@ -1,0 +1,128 @@
+@media screen and (min-width: 1024px) {
+  .headerSection__menuSection {
+    display: none;
+  }
+  .headerSection__smartHomeBlock__image {
+    display: none;
+  }
+  .headerSection__homeBlock__image {
+    display: none;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+  .headerSection {
+    padding: 2rem 3%;
+    font-size: 3.6rem;
+  }
+  .headerSection__topic {
+    font-size: 8rem;
+  }
+  .mainSection {
+    font-size: 3.6rem;
+  }
+  .mainSection__topic {
+    font-size: 5.4rem;
+    font-weight: 700;
+  }
+  .footerSection {
+    font-size: 2.4rem;
+  }
+  .footerSection__topic {
+    font-size: 5rem;
+  }
+
+  .headerSection_MenuSection--desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .headerSection__menuSection__items {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+  }
+  .headerSection__menuSection__item:hover {
+    transition: 0.1s;
+    transform: scale(0.9);
+  }
+  .headerSection__menuSection__buttons {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .headerSection__homeBlock {
+    flex-direction: row;
+  }
+  .headerSection__homeBlock__image--desktop {
+    display: block;
+    width: 44rem;
+    height: 48rem;
+  }
+
+  .headerSection__badgesContainer {
+    gap: 7rem;
+  }
+  .headerSection__badge {
+    width: 14rem;
+    height: 14rem;
+    opacity: 0.7;
+  }
+  .headerSection__badge:hover {
+    opacity: 1;
+  }
+
+  .headerSection__smartHomeBlock {
+    gap: 5rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .headerSection__smartHomeBlock__image--desktop {
+    display: block;
+    width: 65rem;
+    height: 17rem;
+  }
+
+  .mainSection__childBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+  .mainSection__childBlock__image {
+    width: 45rem;
+    height: 40rem;
+  }
+
+  .mainSection__manageBlock {
+    padding: 1.5rem 6rem;
+    gap: 10rem;
+  }
+  .footerSection__imagesContainer {
+    gap: 10rem;
+  }
+  .footerSection__imageContainer {
+    gap: 3rem;
+  }
+  .mainSection__manageBlock__image {
+    width: 26rem;
+    height: 53rem;
+  }
+  .FooterSection__image {
+    transform: scale(1.2);
+  }
+
+  .footerSection__banavazFriends {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footerSection__banavazFriends__items {
+    justify-content: space-evenly;
+  }
+  .footerSection__banavazFriends__logo {
+    width: 45rem;
+    height: 48rem;
+  }
+}

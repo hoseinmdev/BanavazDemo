@@ -1,0 +1,80 @@
+.btn{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.8rem;
+}
+.btn--desktop{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-size: 2.3rem;
+}
+
+
+.btn--primary{
+    transition: 0.1s;
+    border: none;
+    background-color: var(--color-primaray);
+    color: var(--color-txtWhite);
+    opacity: 0.8;
+}
+.btn--primary:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.btn--primaryLight{
+    transition: 0.1s;
+    border: none;
+    background-color: var(--color-txtWhite);
+    color: var(--color-primaray);
+    font-weight: 700;
+}
+.btn--primaryLight:hover{
+    transform: scale(1.1);
+}
+
+.btn--primaryDark{
+    transition: 0.1s;
+    border: none;
+    background-color: var(--color-primaryDark);
+    color: var(--color-txtWhite);
+}
+.btn--primaryDark:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.btn--primaryDark--desktop{
+    transition: 0.1s;
+    border: none;
+    background-color: var(--color-primaryDark);
+    color: var(--color-primaray);
+}
+.btn--primaryDark--desktop:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.btn--secondary{
+    transition: 0.1s;
+    background: none;
+    border-radius: 15px;
+    border: 2px solid var(--color-primaryDark);
+    color: var(--color-primaryDark);
+}
+.btn--secondary:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.btn--secondary--desktop{
+    transition: 0.1s;
+    background: none;
+    border-radius: 15px;
+    border: 2px solid var(--color-txtWhite);
+    color: var(--color-txtWhite);
+}
+.btn--secondary--desktop:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}

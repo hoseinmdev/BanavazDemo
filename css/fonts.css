@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(../assets/fonts/Vazir-FD.woff2);
+}
+body ,button ,form ,input ,textarea{
+    font-family: "Vazir";
+}
+
